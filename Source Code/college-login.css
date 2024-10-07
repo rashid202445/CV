@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    /* background: #efefef !important; */
+    /* font-size: 16px; */
+    color: #777 ;
+    font-family: 'Signika', sans-serif;
+    height: 100%;
+    overflow: hidden;
+
+}   
+
+body::-webkit-scrollbar 
+{
+     width: 0 !important 
+}
+
+#bgimg{
+    background: url(img/bag1.jpg) no-repeat center center fixed;
+    /* display: table; */
+    position: absolute;
+    margin-top: -3%;
+    height: 100% !important;
+    width:auto;
+    opacity: 0.4;
+    background-size: cover;
+    width: 100%;
+    /* filter: blur(5px);
+    -webkit-filter: blur(5px); */
+}
+
+
+#card
+{
+    /* border: solid 2px red; */
+    position: relative;
+    align-self: center !important;
+    margin: 3%  auto  ;
+    height: 89vh;
+    width: 75%;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+
+.left-box
+{  
+     /* border: solid 2px rgba(0, 0, 0, 0.74); */
+    position: absolute;
+    border-right: 0.1rem solid rgba(255, 202, 202, 0.438);
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    padding-top:20px ;
+    padding-left:50px ;
+    width: 48%;
+    height: 100%;
+  
+    
+}
+
+
+.right-box
+{
+    /* border: rgba(0, 0, 0, 0.637) solid 2px; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-top: 20px;
+    width: 52%;
+    height: 100%;  
+    
+}
+
+
+/*------------personal left box ---------*/
+
+.img{
+	/* border: #000000 2px solid !important; */
+	display: flex;
+    justify-content: flex-end;
+    height: 50%;
+    width: 100%;
+	align-items: center !important;
+	padding-right: 15%;
+	padding-left: 15% !important;
+}
+
+.img img{
+    width: 100% !important;
+    height: 100% ;
+}
+
+.left-box .container{
+    margin-top: 5%;
+}
+
+#login{
+    margin-top: 12%;
+    /* border: solid 2px royalblue !important; */
+    color: rgb(73, 73, 73) !important;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+#login h1{
+    font-weight: 700 !important;
+}
+
+
+
+/*------------personal right box ---------*/
+
+.right-box .heading h2{
+    color: rgb(85, 85, 85);
+    margin-left: 15%;
+    margin-top: 12%;
+    padding-bottom: 1%;
+    font-size: 2.6rem;
+}
+
+.data{
+    padding-left:15% ;
+    padding-right: 15%;
+}
+
+.data div{
+    margin-top: 5%;
+}
+
+.data label{
+    color: rgb(70, 70, 70);
+    font-weight: 300 !important;
+    font-family: 'Signika', sans-serif !important;
+    font-size: 1.4rem;
+
+}
+
+.data input{
+    border-radius: 20px;
+    margin-left:-2%; 
+
+}
+
+
+
+.but .btn {
+    /* border: solid 2px red; */
+    margin-top: 10%;
+    padding: 5px;
+    border-radius: 20px;
+  
+}

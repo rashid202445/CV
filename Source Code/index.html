@@ -1,0 +1,691 @@
+
+<!-- ====================================== HTML ================================================ -->
+
+<!doctype html>
+<html lang="en"> 
+  <head>
+
+  <!-- <link rel="stylesheet" type="text/css" href="homepage.css" /> -->
+
+     <!-- Font Icon -->
+     <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <title>CV Developer</title>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     
+    <style>
+    
+                @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+
+                body{
+                    overflow-x: hidden;
+                    font-family: 'Lato', sans-serif;
+                    color: #505962 !important;
+                }
+
+                body::-webkit-scrollbar 
+                {
+                    width: 0 !important 
+                }   
+
+                body::-webkit-scrollbar 
+                {
+                    width: 0 !important 
+                }
+
+                .offset::before{
+                    height: 3.8rem;
+                    margin-top: -3.8rem;
+                    content:"";
+                    display: block;
+                }
+
+                .navbar{
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    font-size: .9rem;
+                    letter-spacing: .1rem;
+                    background: rgba(0,0,0,0.5);
+                    padding-right: 1rem !important;
+                }
+
+                /* navbar */
+                .navbar-brand{
+                    height: 2rem;
+                    padding-left: 3rem;
+                }
+
+                .navc{
+                    color: white;
+                }
+
+                .nav-link{
+                    font-weight: 500;
+                }
+
+                .navbar-nav li{
+                    padding-right: .7rem;
+                }
+
+                .navbar-nav .navbar-dark .nav-link{
+                    color: white !important;
+                    padding-top: .8rem;
+                }
+
+                .navbar-nav .navbar-dark .nav-link .active,
+                .navbar-nav .navbar-dark .nav-link :hover {
+
+                    color: #d00073 !important;
+                }
+
+                [class*="col-"] {
+                    padding: 1rem;
+                }
+
+                .but{
+                    padding: 0rem !important;
+                }
+
+                /* --home page-- */
+
+                #bgimg{
+                    background: url(img/background.png) no-repeat center center fixed;
+                    display: table;
+                    position: relative;
+                    height: 100vh ;
+                    width:auto;
+                    background-size: cover;
+                    width: 100%;
+                }
+
+                .land-text{
+                    position: absolute;
+                    top: 38%;
+                    text-transform: uppercase;
+                    width: 100%;
+                    right: 0;
+                    left: 0;
+                    color: white;
+                }
+
+                .land-text h1{
+                    font-size: 3.8rem;
+                    font-weight: 700;
+                    letter-spacing: 0.2rem;
+                    text-shadow: 0.1rem 0.1rem 0.8rem black;
+                    padding-bottom: 1rem;
+                }
+
+                .land-text h3{
+                    font-size: 2rem;
+                    text-shadow: 0.1rem 0.1rem 0.8rem black;
+                    padding-bottom: 1.6rem;
+
+                }
+                .btn-lg{
+                    border-width: medium;
+                    border-radius: 0;
+                    font-size: 1.1rem;
+
+                }
+
+                /*==about== */
+
+                .narrow{
+                    width: 75%;
+                    margin: 0 auto;
+                    margin-top: 0 ;
+                }
+
+                h3.heading{
+                    font-size: 1.9rem;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    padding-bottom: 1.9rem;
+                }
+
+                .heading-underline{
+                    width: 3rem;
+                    height: .2rem;
+                    background-color: #d00073 !important;
+                    margin: 0 auto 2rem;
+                    margin-bottom: 0rem;
+                }
+
+                .ab{
+                    padding-top: 1.5rem;
+                    padding-bottom: 0rem;
+                }
+
+                #abt-img{
+                    /* border: 2px red solid; */
+                    /* margin-left: -10%; */
+                    margin-right: 2%;
+                }
+
+                #abt-img img{
+                    /* border: 2px rgb(255, 251, 0) solid; */
+                    width: 100%;
+                    padding: 4%;
+                }
+
+                #abt-text{
+                    /* border: solid 2px red; */
+                    padding-top: 4%;
+                    padding:3%;
+                    margin-right: -10%;
+                }
+
+                /* ==Fixed== */
+                #fixed{
+                    background: url(img/background.png) no-repeat center center fixed;
+                    display: table;
+                    position: relative;
+                    height: 60vh ;
+                    background-size: cover;
+                    width: 100%;
+                }
+
+                /* ==Padding for features == */
+
+                .pad{
+                    padding: 90px 0;
+                    margin-top: -10px;
+                    /* border: red solid 2px; */
+                }
+                .pad img{
+                    width: 100%;
+
+                }
+
+                .pad1{
+                    padding: 80px 0;
+                    margin-top: -10px;
+                    /* border: red solid 2px; */
+                }
+                .pad1 img{
+                    width: 80%;
+                    padding-left: 10%; 
+                }
+
+                #pad-text1{
+                    margin-top: 0.6%;
+                }
+
+
+                footer{
+                    width: 100%;
+                    background-color: #40474e;
+                    padding: 3% 5% 5% 5%;
+                    color: white;
+                }
+
+                .link{
+                    margin-left: 4%;
+                    margin-top: 1%;
+                }
+
+
+                footer svg.svg-inline--fa {
+                    font-size: 3rem;
+                    margin: 1.5rem 2.5rem 0 0 ;
+                    color: white;
+                }
+
+                footer svg.svg-inline--fa :hover{
+                    color:#d00073;
+
+                }
+
+
+
+                /* ===media queries=== */
+
+                @media (max-width: 767px ){
+                    
+                    .land-text h1{
+                        font-size: 2.3rem;
+                    
+                        letter-spacing: 0.15rem;
+                        
+                        padding-bottom: 0.5rem;
+                    }
+                    
+                    .land-text h3{
+                        font-size: 1.2rem;
+                    
+                        padding-bottom: 1.2rem;
+                    
+                    }
+                    
+                    .btn-lg{
+                        
+                        font-size: 1rem;
+                    
+                    }
+
+                    .narrow h1{
+                        font-size: 1.6rem;
+                    }
+
+                    p.lead{
+                        font-size: 1.1rem;
+                    }
+                }
+
+
+
+                /* ========================================  login-pop up   ========================================== */
+
+                #box{
+                    /* border: solid rgb(200, 255, 0) 2px; */
+                    height: 100% !important;
+                    widows: 100%;
+                    
+                }
+            
+                .modal::-webkit-scrollbar 
+                {
+                    width: 0 !important 
+                }
+
+
+                .zoom {
+                    padding: 50px;
+                    
+                    transition: transform .2s; /* Animation */
+                
+                    margin: 0 auto;
+                }
+
+                .zoom:hover {
+                    transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+                }
+
+                /* Center the image and position the close button */
+                .face {
+                    text-align: center;
+                    margin: 24px 0 12px 0;
+                    position: relative;
+                }
+                .log{
+                    text-align: center;
+                    font-size: 0.6rem;
+                    /* margin: 24px 0 12px 0; */
+                    position: relative;
+                    padding: 0 !important;
+                    margin-bottom: -10%;
+                    margin-top: 5%;
+                    padding-bottom: 10px;
+                }
+
+                .user-img{
+
+                    text-align: center;
+                    margin: 24px 0 12px 0;
+                    position: relative;
+                    padding-bottom: 0;
+                }
+
+                .user-img img{
+                    height: 80% !important;
+                    width: 80% !important;
+                }
+
+                .user-img img:hover{
+                    transform: scale(1);
+                }
+
+                /* The Modal (background) */
+                .modal {
+                    display:none;
+                    position: fixed;
+                    z-index: 1;
+                    left: 0;
+                    top: 0;
+                    width: 65%;
+                    height: 65%;
+                    overflow: auto;
+                    
+                }
+
+                /* .modal-content::-webkit-scrollbar 
+                {
+                    width: 0 !important 
+                }
+                 */
+
+                /* Modal Content Box */
+                .modal-content {
+                    background-color: #ffb8b8 !important;
+                    margin-left: 35% !important;
+                    margin-top: 10%;
+                    margin-right: -40% !important;
+                    margin-bottom: -10% !important;
+                    border: 1px solid #888;
+                    width: 60% !important;
+                    height: 80% !important;
+                    padding-bottom: 30px;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    border-radius: 15px !important;
+                    /* border: purple 2px solid !important; */
+                }
+
+                /* The Close Button (x) */
+                span.close {
+                    position: absolute;
+                    right: 2px;
+                    top: 0;
+                    color:rgba(0,0,0,1) !important; 
+                    font-size: 30px !important;
+                    font-weight: bold ;
+                }
+                .close:hover,.close:focus {
+                    color: red !important;
+                    cursor: pointer !important;
+                }
+
+                /* Add Zoom Animation */
+                .animate {
+                    animation: zoom 0.6s
+                }
+                @keyframes zoom {
+                    from {transform: scale(0)} 
+                    to {transform: scale(1)}
+                }
+    
+    </style>
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#navbarResponsive">
+      <div id="home">
+
+        <div></div>
+
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+                <a class="navbar-brand brand navc" href="index.html"  style="padding-top:0;">CV DEVELOPER</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav ml-auto nav">
+                   
+                    <li class="nav-item">
+                        <a class="nav-link " href="#home"> home </a>
+                    </li> 
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="#about"> about </a>
+                    </li> 
+        
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features"> features </a>
+                    </li>
+        
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"> contact </a>
+                    </li>
+        
+                    <li class="nav-item">
+                      <button class="btn btn-outline-success btn-sm but" onclick="document.getElementById('modal-wrapper').style.display='block'" >
+                        <a  class="nav-link" href="#"> LOGIN </a>
+                      </button>
+                    </li>
+        
+                    <li class="nav-item" >
+                        <button class="btn btn-outline-primary btn-sm but">
+                        <a class="nav-link" href="#"> SIGN-UP </a>
+                        </button>
+                    </li>
+                    
+                  </ul>
+        
+                </div>
+        
+              </nav> <!--nav  bar close-->
+    </div>
+
+<!-- background image -->        
+<div id="bgimg">
+    <div class="land-text text-center" >
+        <h1>Welcome to cv developer </h1>
+        <h3>Build ur dream here  </h3>
+        <a class="btn btn-outline-light btn-lg" href="#" > Get Started </a>
+    </div>
+</div>
+
+
+<!-------------------------------------------- start about section  ------------------------------------ -->
+<div id="about"class="offset ">
+    <div class="col-12  text-center ab">
+        <h2 class="heading ">About</h2>
+        <div class="heading-underline"></div>
+   </div>
+    
+  <div class="col-12 narrow text-center">
+        
+      <div class="padding">
+            
+            <div class="container">
+                
+                <div class="row">
+                  
+                    <div class="col-sm-6" id="abt-img" >
+                       <img src="img/about-cvd.svg" >
+                    </div>
+                  
+                    <div class="col-sm-6 text-center" id="abt-text">
+                        <h3> About CV Developer.</h3>
+                       <p class="lead"> CV Developer is project built keeping in the mind to help both students and teacher. 
+                            CV Developer is an gateway for the students to build the resume in early and start developing it,
+                            whereas for teacher this a place where all the data will be available ,they dont need to ask data
+                            each time they  want an info about the student.
+                       </p>
+                        <p class="lead">
+                          This is the project diretly open with a landing page where the students and teacher can login 
+                          both have been given a separate login poral, the site can be used anytime you want upgrade your skill
+                          or if you want to access the info its all HERE... 
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+      </div>
+  
+  </div>
+
+</div>
+<!-------------------------------- end of about section ---------------------------------------- -->
+
+<div id="features"class="offset ">
+      
+      <div class="col-12  text-center ab">
+          <h2 class="heading ">Features</h2>
+          <div class="heading-underline"></div>
+      </div>
+
+    <div class="col-12 narrow text-center  pad"> 
+
+          <div class="continer">
+                
+              <div class="row" >
+                    
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-12 " id="pad-text1"  >
+                        <h4 > Student </h4>
+                        <p> Students are the primary users of this site, they build their profile throught 
+                          the 4 years of college, they can even access the site after they leave college 
+                          they can constatly update thier profile whenever they want.They can store all the info in a single place. 
+                          This is built FOR students.
+                          
+                        </p>
+                    </div> 
+              
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-12" id="pad-img" >
+                          <img src="img/feature-student.svg" class="img-responsive"> 
+                    </div> 
+    
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-12"  id="pad-text">
+                          <h4> College </h4>
+                          <p>College includes teachers,department,placement all these users can access this portal,
+                              using this portal teacher can get info about students easliy and for the college can have 
+                              access about the students required info, placement cell can get the full access of this portal,
+                              they can diretly filter the resume accourding to thier needs. 
+                          </p>
+                    </div> 
+    
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-12" id="pad-img" >
+                          <img src="img/feature-college.svg" class="img-responsive">
+                    </div> 
+              </div>
+         </div>
+   </div>
+</div>
+
+
+<div id="fixed">
+
+</div>
+
+<div class="pad1">
+    <div class="container">
+        <div class="row" >
+            <div class="col-sm-6 cv-text ">
+                <h4 class="mb-3">All About CV Developer.</h4>
+              
+                <p class="lead"> A CV (short for the Latin phrase curriculum vitae, which means “course of life”) is a detailed 
+                  document highlighting your professional and academic history. You may be asked to submit a CV when 
+                  applying for jobs in academia or a job outside the US. </p>
+
+                <p class="lead">CVs typically include information like: Work experience : 
+                  <ul>
+                      <li>  Achievements and awards  
+                      <li>  Academic coursework 
+                      <li>  Research projects 
+                      <li>  Publications of your work
+                  </ul>         
+                </p>
+                  
+            </div> 
+          <div class="col-sm-6" >
+            <img src="img/cvinfo.svg" >
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+  <footer id="contact" class="container-fluid text-center">
+      <div class="row">
+          <div class="col-sm-4">
+              <h3>Contact Us</h3>
+              <br>
+              <h4>Our Address and contact info here</h4>
+              <h5>mcabhishekpatel2017@gmail.com</h5>
+              <h5>Computer Science Engineering</h5>
+              <h5> VVIET,MYSORE</h5>
+          </div>
+          <div class="col-sm-4">
+              <h3>Connect</h3>
+              <a href="" target="_blank">  <i class="fab fa-facebook"></i> </a>
+              <a href="" target="_blank">  <i class="fab fa-instagram"></i> </a>
+              <a href="" target="_blank">  <i class="fab fa-github"></i> </a>
+              <a href="" target="_blank">  <i class="fab fa-twitter-square"></i> </a>
+          </div>
+
+        <div class="link">
+          <h3 class="mb-4" > Developer </h3>
+          
+           <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="abhishekpatelmc"><a class="LI-simple-link" href='https://in.linkedin.com/in/abhishekpatelmc?trk=profile-badge'>Abhishek Patel</a></div>
+                  
+        </div>
+        
+      </div>
+
+    </footer>
+
+
+ <!--------------------------------------- Login pop ---------------------------------------->
+         
+  <div id="modal-wrapper" class="modal text-center">
+
+      <div class="modal-content  animate"  >
+              
+                <div class="face">
+
+                  <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>    
+                        <!-- <div class="col-12 user-img">
+                              <img src="img/face.svg" >
+                        </div> -->
+                    
+                        <div class=" log">   
+                            <h1>User</h1>
+                        </div>
+                
+                  
+                    <div class="row" id="box">
+                        <div class="left-box col user-img zoom" >
+                            <a href="#">
+                              <img src="img/student.svg"  style="width:42px;height:42px;border:0;">
+                            </a>
+                            <h3> student </h3>
+                        </div>
+                        <div class="right-box col user-img zoom">
+                            <a href="#">
+                              <img src="img/college.svg"  style="width:42px;height:42px;border:0;">
+                            </a>
+                            <h3> college </h3>
+                        </div>
+                    </div> 
+                  
+                </div>       
+                                          
+        </div>
+          
+  </div>
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+ <script>
+  // If user clicks anywhere outside of the modal, Modal will close
+  
+  var modal = document.getElementById('modal-wrapper');
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  </script>
+
+
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  </body>
+</html>

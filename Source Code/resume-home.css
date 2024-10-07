@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo&display=swap');
+
+body{
+    background-color: rgb(243, 243, 243) !important;
+    font-family: 'Arimo', sans-serif !important; 
+}
+
+/* element::-webkit-scrollbar 
+{
+     width: 0 !important  
+} */
+body::-webkit-scrollbar 
+{
+     width: 0 !important 
+}
+
+#bgimg{
+    background: url(img/resume-home1.jpg) no-repeat center center fixed;
+    /* display: table; */
+    
+    position: fixed;
+    height: 100% !important;
+    width:auto;
+    opacity: 0.6;
+    background-size: cover;
+    width: 100%;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+
+/* ================= nav bar ================*/
+.navbar  {
+    /* text-transform: uppercase; */
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0,0,0,0.7) !important;
+
+}
+
+/* navbar */
+.navbar-brand{
+    height:2.5rem;
+    font-weight: 700 !important;
+    /* padding-left: 1rem; */
+}
+
+.navc{
+    color: white;
+}
+
+.nav-link{
+    font-weight: 400 ;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-family: 'Arimo', sans-serif !important; 
+}
+
+.navbar-nav li{
+    padding-right: .7rem;
+}
+
+.navbar-nav .navbar-dark .nav-link{
+    color: white !important;
+    padding-top: .8rem;
+}
+
+/* ========================== nav bar close ==============================*/
+
+#card
+{
+    /* border: solid 2px red; */
+    position: relative;
+    align-self: center !important;
+    margin: 2%  auto  ;
+    height: 140vh;
+    width: 75%;
+    background: #fff;
+    border: solid 1px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+ 
+.left-box{  
+     /* border: solid 2px rgba(0, 0, 0, 0.74); */
+    position: absolute;
+    border-right: 1px solid #cecece;
+    align-content: center !important ;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding-left:3%;
+    padding-top: 3%;
+    padding-right: 3%;
+    width: 33%;
+    height: 100%;
+}
+
+.right-box{
+    /* border: rgba(0, 0, 0, 0.637) solid 2px; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: scroll;
+    padding-top: 3%;
+    padding-left: 4%;
+    padding-right: 3%;
+    width: 67%;
+    height: 100%;  
+}
+.right-box::-webkit-scrollbar 
+{
+     width: 0 !important 
+}
+
+
+.profile-img{
+    border: #000000 1px solid !important;
+	display: flex;
+    justify-content: flex-end;
+    height: 32%;
+    width: 100%;
+	align-items: center !important;
+	
+        
+}
+
+.profile-img img{
+    width: 100% !important;
+    height: 100% ;
+}
+
+
+.pdetails{
+    /* border: solid 2px red; */
+    margin-top: 8%;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 2px;
+}
+
+.details{
+    /* border: solid 2px red; */
+    text-align: justify;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 2%;
+}
+
+.line{
+    border-top: 1px solid #cecece;
+    margin-left: -50px;
+    margin-right: -40px;
+    margin-top:3%;
+    margin-bottom: 3%;
+}
+
+.pdetails h2{
+   font-size: 1.7rem !important; 
+   color: rgb(167, 167, 167);
+   font-weight: 500 !important;
+}
+
+.details h2{
+    font-size: 1.3rem;
+    color: rgb(167, 167, 167);
+    font-weight: 500;
+    margin-bottom:2% ;
+}
+
+
+/*   ==================================== styling the contect ======================================  */
+
+#nameid{
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.pdetails h4{
+    color: rgb(121, 121, 121);
+    font-size: 1.2rem !important;
+    font-weight: 700 !important;
+}
+
+.pdetails h5{
+    color: rgb(41, 41, 41);
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+
+}
+
+
+/* --------------------right-------------- */
+
+.details h4{
+    color: rgb(121, 121, 121);
+    font-size: 1.2rem !important;
+    font-weight: 700 !important;
+    margin-top: 1%;
+}
+
+.details h5{
+    color: rgb(41, 41, 41);
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+
+}
+
+.details #man{
+    color: rgb(121, 121, 121) !important;
+    font-size: 1.2rem !important;
+    font-weight: 700 !important;
+}
+
+.details #dat{
+    color: rgb(41, 41, 41);
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+
+}

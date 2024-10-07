@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+
+body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962 !important;
+}
+
+body::-webkit-scrollbar 
+{
+     width: 0 !important 
+}
+
+.offset::before{
+    height: 3.8rem;
+    margin-top: -3.8rem;
+    content:"";
+    display: block;
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0,0,0,0.5);
+    padding-right: 1rem !important;
+}
+
+/* navbar */
+.navbar-brand{
+    height: 2rem;
+    padding-left: 3rem;
+}
+
+.navc{
+    color: white;
+}
+
+.nav-link{
+    font-weight: 500;
+}
+
+.navbar-nav li{
+    padding-right: .7rem;
+}
+
+.navbar-nav .navbar-dark .nav-link{
+    color: white !important;
+    padding-top: .8rem;
+}
+
+.navbar-nav .navbar-dark .nav-link .active,
+.navbar-nav .navbar-dark .nav-link :hover {
+
+    color: #d00073 !important;
+}
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+.but{
+    padding: 0rem !important;
+}
+
+/* --home page-- */
+
+#bgimg{
+    background: url(img/background.png) no-repeat center center fixed;
+    display: table;
+    position: relative;
+    height: 100vh ;
+    width:auto;
+    background-size: cover;
+    width: 100%;
+}
+
+.land-text{
+    position: absolute;
+    top: 38%;
+    text-transform: uppercase;
+    width: 100%;
+    right: 0;
+    left: 0;
+    color: white;
+}
+
+.land-text h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem black;
+    padding-bottom: 1rem;
+}
+
+.land-text h3{
+    font-size: 2rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem black;
+    padding-bottom: 1.6rem;
+
+}
+.btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    font-size: 1.1rem;
+
+}
+
+/*==about== */
+
+.narrow{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 0 ;
+}
+
+h3.heading{
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 1.9rem;
+}
+
+.heading-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color: #d00073 !important;
+    margin: 0 auto 2rem;
+    margin-bottom: 0rem;
+}
+
+.ab{
+    padding-top: 1.5rem;
+    padding-bottom: 0rem;
+}
+
+#abt-img{
+    /* border: 2px red solid; */
+    /* margin-left: -10%; */
+    margin-right: 2%;
+}
+
+#abt-img img{
+    /* border: 2px rgb(255, 251, 0) solid; */
+    width: 100%;
+    padding: 4%;
+}
+
+#abt-text{
+    /* border: solid 2px red; */
+    padding-top: 4%;
+    padding:3%;
+    margin-right: -10%;
+}
+
+/* ==Fixed== */
+#fixed{
+    background: url(img/background.png) no-repeat center center fixed;
+    display: table;
+    position: relative;
+    height: 60vh ;
+    background-size: cover;
+    width: 100%;
+}
+
+/* ==Padding for features == */
+
+.pad{
+    padding: 90px 0;
+    margin-top: -10px;
+    /* border: red solid 2px; */
+}
+.pad img{
+    width: 100%;
+
+}
+
+.pad1{
+    padding: 80px 0;
+    margin-top: -10px;
+    /* border: red solid 2px; */
+}
+.pad1 img{
+    width: 80%;
+    padding-left: 10%; 
+}
+
+#pad-text1{
+    margin-top: 0.6%;
+}
+
+
+footer{
+    width: 100%;
+    background-color: #40474e;
+    padding: 3% 5% 5% 5%;
+    color: white;
+}
+
+.link{
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+
+footer svg.svg-inline--fa {
+    font-size: 3rem;
+    margin: 1.5rem 2.5rem 0 0 ;
+    color: white;
+}
+
+footer svg.svg-inline--fa :hover{
+    color:#d00073;
+
+}
+
+
+
+/* ===media queries=== */
+
+@media (max-width: 767px ){
+    
+    .land-text h1{
+        font-size: 2.3rem;
+       
+        letter-spacing: 0.15rem;
+        
+        padding-bottom: 0.5rem;
+    }
+    
+    .land-text h3{
+        font-size: 1.2rem;
+       
+        padding-bottom: 1.2rem;
+    
+    }
+    
+    .btn-lg{
+        
+        font-size: 1rem;
+    
+    }
+
+    .narrow h1{
+        font-size: 1.6rem;
+    }
+
+    p.lead{
+        font-size: 1.1rem;
+    }
+}
+
+
+
+/* ========================================  login-pop up   ========================================== */
+
+#box{
+    /* border: solid rgb(200, 255, 0) 2px; */
+    height: 100% !important;
+    widows: 100%;
+    
+}
+
+
+.zoom {
+    padding: 50px;
+    
+    transition: transform .2s; /* Animation */
+   
+    margin: 0 auto;
+ }
+
+.zoom:hover {
+    transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* Center the image and position the close button */
+.face {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.log{
+    text-align: center;
+    font-size: 0.6rem;
+    /* margin: 24px 0 12px 0; */
+    position: relative;
+    padding: 0 !important;
+    margin-bottom: -10%;
+    margin-top: 5%;
+    padding-bottom: 10px;
+}
+
+.user-img{
+
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.user-img img{
+    height: 70% !important;
+    width: 70% !important;
+}
+
+.user-img img:hover{
+    transform: scale(1);
+}
+
+/* The Modal (background) */
+.modal {
+	display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 60%;
+    height: 60%;
+    overflow: auto;
+    
+}
+
+/* Modal Content Box */
+.modal-content {
+    background-color: #ffb8b8 !important;
+    margin: 8% auto 15% auto;
+    border: 1px solid #888;
+    width: 34% !important;
+    height: 60% !important;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px !important;
+    /* border: purple 2px solid !important; */
+}
+
+/* The Close Button (x) */
+span.close {
+    position: absolute;
+    right: 2px;
+    top: 0;
+    color:rgba(0,0,0,1) !important; 
+    font-size: 30px !important;
+    font-weight: bold ;
+}
+.close:hover,.close:focus {
+    color: red !important;
+    cursor: pointer !important;
+}
+
+/* Add Zoom Animation */
+.animate {
+    animation: zoom 0.6s
+}
+@keyframes zoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+
